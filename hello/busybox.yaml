@@ -48,6 +48,7 @@ spec:
     protocol: TCP
     targetPort: 8000
   selector:
+    run: busybox
 ---
 apiVersion: v1
 kind: ConfigMap
